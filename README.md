@@ -1,57 +1,60 @@
 # TUTORIA
 
-**Descripción breve:** Tutor AI Agent for the Pioneer Hackathon
+**Brief Description:** An intelligent student portal that utilizes specialized AI agents to guide learning, manage administrative tasks, and provide campus life information.
 
-## 🏆 Track del Hackathon
-**Track seleccionado:** Open Track: AI in Education
+## 🏆 Hackathon Track
+**Selected Track:** Open Track (This project improves access to student information and academic resources through AI).
 
-## 🎥 Demo y Prototipo
-* Prototipo Funcional (Live App): [Enlace a tu aplicación web, si la tienen]
-* Video Demostrativo: [Enlace a tu video de YouTube/Vimeo de 2 a 5 minutos]
-
-
-## 🚀 Cómo ejecutar el proyecto
-
-### Requisitos previos
-* [Ejemplo: Node.js o Python instalado]
-
-### Instalación y Ejecución
-Paso 1. Clona este repositorio:
-git clone https://github.com/tu-usuario/tu-repo.git
-
-Paso 2. Navega a la carpeta:
-cd [nombre-de-la-carpeta]
-
-Paso 3. Instala las dependencias:
-[Ejemplo: npm install o pip install -r requirements.txt]
-
-Paso 4. Configura las variables de entorno en un archivo .env:
-API_KEY=[Qué API key necesitan los jueces]
-
-Paso 5. Inicia la aplicación:
-[Ejemplo: npm run dev o python app.py]
-
-### 🔐 Credenciales de Prueba (Para los jueces)
-* Usuario: juez@hackathon.com
-* Contraseña: JuezDemo2026!
+## 🎥 Demo & Prototype
+* **Functional Prototype (Live App):** [Link to your GitHub Pages or Vercel]
+* **Demo Video:** [Link to your 2-5 min video]
 
 ---
 
-## 🛠️ Herramientas y Atribuciones
+## 🚀 How to Run the Project
 
-Confirmamos que más del 80% del código de este proyecto fue creado desde cero durante el evento.
+This project is a Single Page Application (SPA) that does not require heavy server installation.
 
-### Stack Tecnológico
-* Frontend: [Ej: React, HTML/CSS]
-* Backend: [Ej: Python, Node.js]
+### Prerequisites
+* A modern web browser (Chrome, Edge, Safari).
+* An active internet connection (to load Tailwind and Lucide libraries via CDN).
 
-### IA y Herramientas Open-Source
-* Google Gemini: Usada para hacer el prototipo.
-* Perplexity: Usada para hacer toda la investigación.
+### Installation & Execution
+1. **Clone this repository:**
+   git clone https://github.com/your-username/your-repo-name.git
+
+2. **Configure your API Key:**
+   * Open the `index.html` file with a text editor (such as VS Code or Notepad).
+   * Go to line 132: `const GEMINI_API_KEY = "";`
+   * Paste your Google Gemini API Key between the quotation marks.
+
+3. **Launch the application:**
+   * Simply double-click the `index.html` file to open it in your browser.
+   * (Optional) If you use VS Code, you can use the "Live Server" extension for a better experience.
+
+### 🔐 Test Credentials
+The application is open-access for demonstration purposes, pre-configured under the following student profile:
+* **Profile:** Alex Rodriguez (Year 2)
+* **Access:** Full access to all 3 agents (Academic, Management, and Campus).
 
 ---
 
-## 👥 El Equipo
-* Marco Jaén 
-* Silvia Castañeda
-* Alberto Guerrero
+## 🛠️ Tools & Attributions
+
+**We confirm that over 80% of this project's codebase was created from scratch during the hackathon timeframe.**
+
+### Tech Stack
+* **Frontend:** HTML5, Tailwind CSS (via CDN) for the "Glassmorphism" UI design.
+* **Icon Library:** Lucide Icons.
+* **Logic:** Vanilla JavaScript.
+
+### AI & Open-Source Tools
+* **Google Gemini API (Model: 2.5-flash):** The core engine that processes natural language, analyzes images, and reads text files uploaded by the user.
+* **Tailwind CSS:** Framework used to build the modern and responsive interface quickly.
+
+---
+
+## 👥 The Team
+* **MARCO** - GitHub Manager
+* **ALBERTO** - AI Logic & Prompts
+* **SILVIA** - Frontend
