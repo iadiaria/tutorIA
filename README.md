@@ -6,7 +6,7 @@
 **Selected Track:** Open Track (This project improves access to student information and academic resources through AI).
 
 ## 🎥 Demo & Prototype
-* **Functional Prototype (Live App):** https://github.com/iadiaria/tutorIA
+* **Functional Prototype (Live App):** https://iadiaria.github.io/tutorIA/
 * **Demo Video:** [Link to your 2-5 min video]
 
 ---
